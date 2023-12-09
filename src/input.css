@@ -10,11 +10,49 @@
     }
 
     .icon-header img {
-        width: 4vw;
         height: 4vh;
         margin: 0 3vw;
     }
-    .naigate{
-        @apply peer-hover/draft:w-[70%] peer-hover/draft:ease-linear peer-hover/draft:duration-700   text-yellow-50 absolute top-0 left-0 h-full w-[0] bg-gray-800
+
+    .naigate {
+        @apply peer-hover/draft:block hidden text-yellow-50 absolute top-0 left-0 h-full w-[70%] bg-gray-800
     }
+
+    .icon-header-lg {
+        @apply mx-5 w-[2.2vw] h-[4vh] my-[3vh]
+    }
+
+
+}
+
+@layer utilities {
+    .animline {
+        @apply absolute   w-[0] h-[0.3vh] bg-amber-800  ease-linear duration-500
+    }
+
+    .animmain {
+        background-image: url("/src/img/slide1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation-name: slider;
+        animation-duration: 30s;
+        animation-delay: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 20;
+
+
+    }
+
+    @keyframes slider {
+        0% {
+            background-image: url("/src/img/slide1.jpg");
+            background-position: center;
+        }
+        50% {
+            background-image: url("/src/img/slide2.jpg");
+            background-position: bottom;
+        }
+
+    }
+
 }
