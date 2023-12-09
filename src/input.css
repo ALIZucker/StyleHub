@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .icon-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon-header img {
+        width: 4vw;
+        height: 4vh;
+        margin: 0 3vw;
+    }
+    .naigate{
+        @apply peer-hover/draft:w-[70%] peer-hover/draft:ease-linear peer-hover/draft:duration-700   text-yellow-50 absolute top-0 left-0 h-full w-[0] bg-gray-800
+    }
+}
