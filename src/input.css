@@ -21,6 +21,9 @@
     .icon-header-lg {
         @apply mx-5 w-[2.2vw] h-[4vh] my-[3vh]
     }
+    .cart{
+       @apply z-10 absolute text-center bottom-[17vh] left-4 bg-gray-100 text-black py-1 px-16 font-semibold text-[2.5vw] hover:bg-red-600 hover:text-yellow-50
+    }
 
 
 }
