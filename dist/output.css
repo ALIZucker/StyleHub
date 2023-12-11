@@ -1236,7 +1236,7 @@ video {
 }
 
 .animmain {
-  background-image: url("slide1.jpg");
+  background-image: url("../slide1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   animation-name: slider;
@@ -1248,12 +1248,12 @@ video {
 
 @keyframes slider {
   0% {
-    background-image: url("slide1.jpg");
+    background-image: url("../slide1.jpg");
     background-position: center;
   }
 
   50% {
-    background-image: url("slide2.jpg");
+    background-image: url("../slide2.jpg");
     background-position: bottom;
   }
 }
