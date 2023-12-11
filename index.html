@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="dist/output.css" rel="stylesheet">
-</head>
+    <link href="src/font/stylesheet.css" rel="stylesheet">
+
 <body>
 <!--منو بار سایت -->
 <section class="flex flex-row  w-full h-[11.5vh] justify-between border-b-2 border-solid border-b-gray-200">
-    <div class="text-3xl  py-5 px-4 font-bold capitalize">
-        <h1>style <span class="text-yellow-500 tracking-wider shadow-neutral-500">hup</span></h1>
+    <div class="text-3xl  py-5 px-4 font-bold capitalize ">
+        <h1 class=" font-extrabold">style <span class="text-yellow-500 tracking-wider shadow-neutral-500">hup</span>
+        </h1>
     </div>
     <div class="icon-header lg:hidden">
         <img src="src/img/menu.png" class="  peer/draft">
         <img src="src/img/cart.png">
         <img src="src/img/search-interface-symbol.png">
-        <div class="naigate">
+        <div class="naigate z-30">
             <ul class="my-[12vh] space-y-4 ml-4 text-2xl  ">
                 <li>Shop</li>
                 <li>Woman</li>
@@ -49,18 +51,18 @@
 <section class="bg-amber-300 w-full h-[40vh] mt-2 animmain lg:h-[80vh]">
     <div class="flex py-[9vh] flex-col pl-3 space-y-2 lg:pl-16 lg:pt-[19vh] lg:space-y-5">
         <span class="lg:text-[2vw]">BIG SALE</span>
-        <h2 class="text-2xl lg:text-7xl lg:tracking-wider">up to 50% off<br> trendy fashion</h2>
-        <span class="text-lg"><b>Free Shipping</b>-Dont Miss the Deal</span>
-        <a href="#" class="group/line font-bold hover:text-yellow-700">SHOW NOW <span
+        <h2 class="text-2xl lg:text-7xl lg:tracking-wider Josefin font-semibold">up to 50% off<br> trendy fashion</h2>
+        <span class="text-lg Kalnia"><b>Free Shipping</b>-Dont Miss the Deal</span>
+        <a href="#" class="group/line font-bold hover:text-yellow-700 Signika">SHOW NOW <span
                 class="animline top-[49vh] left-[4vw] group-hover/line:w-[15vw] lg:group-hover/line:w-[7vw] lg:top-[79.5vh] "></span></a>
     </div>
 </section>
 
 <div CLASS="text-center text-2xl  font-semibold mt-4  decoration-2 decoration-black decoration-solid underline underline-offset-4">
-    <h3 class="font-bold">BESTSELLER</h3>
+    <h3 class="font-bold lg:text-3xl text-xl">BESTSELLER</h3>
 </div>
 <!--بهترین محصولات به فروش رسیده سایت -->
-<div class="flex flex-row mt-9 overflow-x-scroll">
+<div class="flex flex-row mt-9 overflow-x-scroll froshbox">
 
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like">
         <img class="absolute z-10 right-0 top-0 h-5 w-5 m-2 lg:opacity-0  group-hover/like:opacity-100 lg:top-[29vh] lg:bg-gray-200 lg:w-[3vw]  lg:h-[4vh] lg:p-1 lg:rounded-2xl"
@@ -72,7 +74,7 @@
         <img src="src/img/best1b.jpg"
              class="absolute opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
 
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like">
@@ -85,7 +87,7 @@
         <img src="src/img/best2b.jpg"
              class="absolute opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like">
         <img class="absolute z-10 right-0 top-0 h-5 w-5 m-2 lg:opacity-0  group-hover/like:opacity-100 lg:top-[29vh] lg:bg-gray-200 lg:w-[3vw]  lg:h-[4vh] lg:p-1 lg:rounded-2xl"
@@ -97,7 +99,7 @@
         <img src="src/img/best3b.jpg"
              class="absolute opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like">
         <img class="absolute z-10 right-0 top-0 h-5 w-5 m-2 lg:opacity-0  group-hover/like:opacity-100 lg:top-[29vh] lg:bg-gray-200 lg:w-[3vw]  lg:h-[4vh] lg:p-1 lg:rounded-2xl"
@@ -109,7 +111,7 @@
         <img src="src/img/best4b.jpg"
              class="absolute opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like">
         <img class="absolute z-10 right-0 top-0 h-5 w-5 m-2 lg:opacity-0  group-hover/like:opacity-100 lg:top-[29vh] lg:bg-gray-200 lg:w-[3vw]  lg:h-[4vh] lg:p-1 lg:rounded-2xl"
@@ -121,24 +123,24 @@
         <img src="src/img/best5b.jpg"
              class="absolute opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
 
 </div>
 <!--دکمه دیدن همه -->
 <div class="mt-[8vh] text-center">
-    <a class="px-[9vw] py-[2vh] cursor-pointer border-solid border-black border-2 font-semibold hover:text-red-50 hover:bg-black ">SEE
+    <a class="lg:hidden px-[9vw] py-[2vh] cursor-pointer border-solid border-black border-2 font-semibold hover:text-red-50 hover:bg-black ">SEE
         ALL</a>
 </div>
 <!--جدید ترین دسته بندی لباس های سایت -->
 <div class="relative w-full h-[70vh] mt-[10vh] bg-[#f9f6f6] lg:h-[90vh] shadow-md shadow-neutral-400">
 
     <img src="src/img/woman-fashion-new-collection-facebook-ad%20(1).png" class=" w-full pt-[29vh]  lg:h-full lg:pt-0 ">
-    <span class="font-semibold text-lg tracking-wider absolute top-3 left-[34%] lg:left-[44%] lg:top-[10vh] ">COAT&JACKETS</span>
+    <span class=" text-lg  tracking-wide absolute top-3 left-[34%] lg:left-[44%] lg:top-[10vh]  font-sans font-semibold">COAT&JACKETS</span>
     <h2 class="font-bold text-4xl text-center tracking-wider absolute top-10 left-[18%] uppercase lg:left-[37%] lg:top-[20vh] ">
         the new fashion<br> collection</h2>
     <a class="group/line cursor-pointer font-semibold text-lg tracking-wider absolute top-[24vh] left-[40%] decoration-solid decoration-2 decoration-black lg:top-[44vh] uppercase
-    lg:left-[45.5%] ">shop now
+    lg:left-[45.5%] Signika ">shop now
         <span class=" animline top-[4.6vh] left-[2vw] group-hover/line:w-[15vw] lg:group-hover/line:w-[7vw] lg:top-[4.5vh] lg:left-[0.3vw] "></span></a>
 </div>
 
@@ -151,7 +153,7 @@
     </div>
 </section>
 <!--مهمترین تخفیفات درون سایت -->
-<div class="flex flex-row mt-9 overflow-x-scroll">
+<div class="flex flex-row mt-9 overflow-x-scroll froshbox">
 
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like lg:h-[70vh]">
         <img class="absolute z-10 right-0 top-0 h-5 w-5 m-2 lg:opacity-0  group-hover/like:opacity-100 lg:top-[42vh] lg:bg-gray-200 lg:w-[3vw]  lg:h-[4vh] lg:p-1 lg:rounded-2xl"
@@ -163,7 +165,7 @@
         <img src="src/img/deel5b.jpg"
              class="absolute lg:h-[82%] opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
 
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like lg:h-[70vh]">
@@ -176,7 +178,7 @@
         <img src="src/img/deel1b.jpg"
              class="absolute lg:h-[82%] opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like lg:h-[70vh]">
         <img class="absolute z-10 right-0 top-0 h-5 w-5 m-2 lg:opacity-0  group-hover/like:opacity-100 lg:top-[42vh] lg:bg-gray-200 lg:w-[3vw]  lg:h-[4vh] lg:p-1 lg:rounded-2xl"
@@ -188,7 +190,7 @@
         <img src="src/img/deel2b.jpg"
              class="absolute lg:h-[82%] opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like lg:h-[70vh]">
         <img class="absolute z-10 right-0 top-0 h-5 w-5 m-2 lg:opacity-0  group-hover/like:opacity-100 lg:top-[42vh] lg:bg-gray-200 lg:w-[3vw]  lg:h-[4vh] lg:p-1 lg:rounded-2xl"
@@ -200,7 +202,7 @@
         <img src="src/img/deel3b.jpg"
              class="absolute lg:h-[82%] opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
     <article class="relative min-w-[50vw]  my-3 shadow-md shadow-gray-400 m-1 lg:min-w-[25vw] group/like lg:h-[70vh]">
         <img class="absolute z-10 right-0 top-0 h-5 w-5 m-2 lg:opacity-0  group-hover/like:opacity-100 lg:top-[42vh] lg:bg-gray-200 lg:w-[3vw]  lg:h-[4vh] lg:p-1 lg:rounded-2xl"
@@ -212,50 +214,55 @@
         <img src="src/img/deel4b.jpg"
              class="absolute lg:h-[82%] opacity-0 w-full hover:brightness-75  top-0 h-[45vh] hover:opacity-100 ease-out duration-1000">
         <strong class="block mt-3 ml-4 hover:text-red-500">Chiffon Wrap Button Detail Maxi Dress</strong>
-        <span class="ml-4 mb-5 text-base">$1,000</span>
+        <span class="ml-4 mb-5 text-base font-medium">$1,000</span>
     </article>
 
 </div>
-<div class="mt-[8vh] text-center">
+<div class="mt-[8vh] text-center lg:hidden">
     <a class="px-[9vw] py-[2vh] cursor-pointer border-solid border-black border-2 font-semibold hover:text-red-50 hover:bg-black ">SEE
         ALL</a>
 </div>
 <!--نظر کاربران در مورد سایت  -->
 <div CLASS="text-center  text-2xl space-y-2 font-semibold mt-10 decoration-2 decoration-black decoration-solid min-h-[65vh] bg-gray-200 pt-9 lg:min-h-[40vh] underline-offset-4">
     <h3 class="uppercase font-bold">our reviews</h3>
-    <div class="flex flex-row overflow-x-scroll">
+    <div class="flex flex-row overflow-x-scroll froshbox cursor-pointer">
         <section class="flex flex-col min-w-[80%] items-center space-y-4 bg-white pb-5 m-2 lg:min-w-[50%] lg:flex-row">
-            <img src="src/img/avatar-1.jpg" class="w-[17vw] max-h-[11vh] mt-9 rounded-[50%] lg:lg:ml-[2vw] lg:mt-0 lg:max-w-[20vw] lg:max-h-[20vh]">
-            <section >
-                <p class="text-gray-500 text-center capitalize text-[2.9vw] leading-5 lg:text-[1.2vw] lg:ml-[10vw]  lg:w-[70%] " >Breathable and lightweight, these
+            <img src="src/img/avatar-1.jpg"
+                 class="w-[17vw] max-h-[11vh] mt-9 rounded-[50%] lg:lg:ml-[2vw] lg:mt-0 lg:max-w-[20vw] lg:max-h-[20vh]">
+            <section>
+                <p class=" text-gray-500 text-center capitalize text-[2.5vw] leading-5 lg:text-[1.2vw] lg:ml-[10vw]  lg:w-[70%] ">
+                    Breathable and lightweight, these
                     joggers
                     let you workout in comfort and style.
                     Detailed with delicate lace and flowing chiffon, this dress brings feminine romance to your
                     wardrobe.</p>
                 <br>
-                <span class="text-lg uppercase lg:ml-[10vw] ">Camille Magnolia </span>
+                <span class="text-lg uppercase lg:ml-[10vw] Kalnia">Camille Magnolia </span>
             </section>
 
         </section>
         <section class="flex flex-col min-w-[80%] items-center space-y-4 bg-white pb-5 m-2 lg:min-w-[50%] lg:flex-row">
-            <img src="src/img/avatar-2.jpg" class="w-[17vw] max-h-[11vh] mt-9 rounded-[50%] lg:lg:ml-[2vw] lg:mt-0 lg:max-w-[20vw] lg:max-h-[20vh]">
-            <section >
-                <p class="text-gray-500 text-center capitalize text-[2.9vw] leading-5 lg:text-[1.2vw] lg:ml-[10vw]  lg:w-[70%] " >
+            <img src="src/img/avatar-2.jpg"
+                 class="w-[17vw] max-h-[11vh] mt-9 rounded-[50%] lg:lg:ml-[2vw] lg:mt-0 lg:max-w-[20vw] lg:max-h-[20vh]">
+            <section>
+                <p class="text-gray-500 text-center capitalize text-[2.9vw] leading-5 lg:text-[1.2vw] lg:ml-[10vw]  lg:w-[70%] ">
                     Detailed with delicate lace and flowing chiffon, this dress brings feminine romance to your
                     wardrobe.</p>
                 <br>
-                <span class="text-lg uppercase lg:ml-[10vw] ">matthew </span>
+                <span class="text-lg uppercase lg:ml-[10vw] Kalnia">matthew </span>
             </section>
 
         </section>
         <section class="flex flex-col min-w-[80%] items-center space-y-4 bg-white pb-5 m-2 lg:min-w-[50%] lg:flex-row">
-            <img src="src/img/avatar-3.jpg" class="w-[17vw] max-h-[11vh] mt-9 rounded-[50%] lg:lg:ml-[2vw] lg:mt-0 lg:max-w-[20vw] lg:max-h-[20vh]">
-            <section >
-                <p class="text-gray-500 text-center capitalize text-[2.9vw] leading-5 lg:text-[1.2vw] lg:ml-[10vw]  lg:w-[70%] " >Breathable and lightweight, these
+            <img src="src/img/avatar-3.jpg"
+                 class="w-[17vw] max-h-[11vh] mt-9 rounded-[50%] lg:lg:ml-[2vw] lg:mt-0 lg:max-w-[20vw] lg:max-h-[20vh]">
+            <section>
+                <p class="text-gray-500 text-center capitalize text-[2.9vw] leading-5 lg:text-[1.2vw] lg:ml-[10vw]  lg:w-[70%] ">
+                    Breathable and lightweight, these
                     joggers
                     let you workout in comfort and style.</p>
                 <br>
-                <span class="text-lg uppercase lg:ml-[10vw] ">sabrina murray </span>
+                <span class="text-lg uppercase lg:ml-[10vw] Kalnia">sabrina murray </span>
             </section>
 
         </section>
@@ -263,17 +270,58 @@
 
 </div>
 <!--جایزه خرید و دریافت تخفیف-->
-<div CLASS="text-center h-[62vh] text-2xl space-y-2 font-semibold mt-10 decoration-2 decoration-black decoration-solid min-h-[50vw]  pt-9 underline-offset-4">
+<div CLASS="text-center  text-2xl space-y-2 font-semibold mt-10 decoration-2 decoration-black decoration-solid min-h-[50vw] lg:min-h-[20vh]  pt-9 underline-offset-4">
     <h3 class="uppercase font-bold">our brands</h3>
     <div class="flex flex-row justify-around p-2 pt-9">
         <img src="src/img/aref.png" class="w-[22vw] h-[15vh] contrast-0 lg:w-[14vw]">
         <img src="src/img/brand-1.png" class="w-[22vw] h-[15vh] lg:w-[14vw]">
         <img src="src/img/brand-6.png" class="w-[22vw] h-[15vh] lg:w-[14vw]">
     </div>
+    <hr>
 </div>
-<!--در مورد سایت  و فوتر-->
-<footer>
 
+<!--در مورد سایت  و فوتر-->
+<footer class="flex bg-gray-100 flex-col justify-center items-center lg:flex-row lg:flex-wrap lg:justify-start">
+    <div class="text-center  ">
+        <h2 class="text-2xl font-extrabold uppercase mt-9">Style hup</h2>
+        <p class=" text-center px-14 mt-4 lg:text-xl Josefin font-bold">we pride ourselves on curating a diverse and trendy collection of clothing,
+            accessories, and
+            footwear that caters to every individual's unique sense of style. Whether you're searching for elegant
+            dresses, comfortable loungewear, statement accessories, or the latest footwear trends, our extensive range
+            of products has something for everyone.</p>
+        <hr class="mt-9">
+    </div>
+
+    <div class="text-center mt-6  lg:min-w-[50%] lg:mt-0 ">
+
+        <h2 class="text-2xl font-bold uppercase mt-9">SIGN UP FOR EMAILS</h2>
+        <p class="text-center px-14 mt-4">Enjoy 15% off* your first order when you sign up to our newsletter</p>
+
+        <input type="text" name="searchbar" class="min-w-[70%] h-5 bg-gray-300 px-5 py-4"
+               placeholder="your e-mail address">
+        <input type="button" name="button" value="SUBSCRIBE"
+               class="bg-black text-white px-5 py-1 font-semibold cursor-pointer">
+        <hr class="mt-6 ">
+    </div>
+    <div class="text-end mt-6 min-w-[40%] font-normal space-y-2 text-gray-600">
+
+        <p class=" text-lg tracking-11">Tel:(234)23-45-666</p>
+        <address class="capitalize ">iran - sari - khazar street</address>
+        <p class="tracking-wider text-lg ">Mon - Fri : 8am – 8pm</p>
+        <p class="tracking-wider text-lg ">Sat - Sun : 8am – 7pm</p>
+    </div>
+
+    <div class="w-full text-center mt-9 bg-gray-300  text-gray-600 space-y-2 lg:w-full lg:flex lg:flex-row lg:justify-between lg:items-center">
+
+        <p class="text-base text-end lg:mr-8 lg:order-2 my-2 tracking-wide">@style. all right reserved</p>
+        <section class="flex flex-row lg:justify-end lg:ml-8 items-center space-x-3 my-2 lg:order-1 ">
+            <img src="src/img/icons8-twitter-50.png" class="w-[5vw] lg:max-w-[1.5vw]">
+            <img src="src/img/icons8-facebook-50.png " class="w-[5vw] lg:max-w-[1.5vw]">
+            <img src="src/img/icons8-instagram-50.png" class="w-[5vw] lg:max-w-[1.5vw]">
+        </section>
+
+
+    </div>
 </footer>
 
 </body>

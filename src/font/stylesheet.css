@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Josefin ';
+    src: url('JosefinSans-Thin.eot');
+    src: url('JosefinSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('JosefinSans-Thin.woff2') format('woff2'),
+        url('JosefinSans-Thin.woff') format('woff'),
+        url('JosefinSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src: url('Kalnia-Thin.eot');
+    src: url('Kalnia-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Kalnia-Thin.woff2') format('woff2'),
+        url('Kalnia-Thin.woff') format('woff'),
+        url('Kalnia-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika Negative';
+    src: url('SignikaNegative-Light.eot');
+    src: url('SignikaNegative-Light.eot?#iefix') format('embedded-opentype'),
+        url('SignikaNegative-Light.woff2') format('woff2'),
+        url('SignikaNegative-Light.woff') format('woff'),
+        url('SignikaNegative-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+.Signika{
+    font-family: "Signika Negative ";
+}
+.Kalnia{
+    font-family: "Kalnia ";
+}
+.Josefin{font-family: "Josefin ";}
