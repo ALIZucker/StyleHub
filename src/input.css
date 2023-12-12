@@ -27,7 +27,7 @@
     }
 
     .cart {
-        @apply z-10 absolute text-center bottom-[17vh] left-4 bg-gray-100 text-black py-1 px-16 font-semibold text-[2.5vw] hover:bg-red-600 hover:text-yellow-50
+        @apply z-10 absolute text-center bottom-[11vh]  bg-gray-100 text-black py-1 px-16 font-semibold text-[2.5vw] hover:bg-red-600 hover:text-yellow-50
     }
 
     .froshbox::-webkit-scrollbar {
